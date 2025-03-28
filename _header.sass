@@ -1,14 +1,22 @@
 header
     padding: 20px 0
     z-index: 1000
+    position: fixed  
+    background-color: #212529
+    width: 100%
     .menu
-        position: fixed
-        margin-top: 30px
-        background-color: #212529
-        width: 100%
-        height: 10vh
-        .imgbox
-            margin-left: 20px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        nav            
+            a
+                cursor: pointer
+                font-size: 18px
+                color: #fcf7f7
+                margin-right: 30px
+                &:hover
+                    color: #f8cf75
+        .imgbox           
             &:hover
                 cursor: pointer
     @media screen and ( min-width: 300px )
@@ -53,12 +61,7 @@ header
         nav
             display: flex
             align-items: center
-            justify-content: center
-            margin-right: 20%
+            justify-content: space-around            
             font-size: 20px
-            color: #ffff
-            &:hover
-                color: #ffc800
-                cursor: pointer
         .btn
             display: none

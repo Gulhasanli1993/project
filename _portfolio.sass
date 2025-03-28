@@ -24,7 +24,24 @@
             font-size: 18px
             color: #6c757d
         .imgbox
+            position: relative
             img
                 width: 100%
+            .icon
+                width: 100%
+                display: flex
+                justify-content: center
+                align-items: center
+                font-size: 60px
+                color: #ffff
+                position: absolute
+                top: 0
+                bottom: 0
+                opacity: 0
+                &:hover
+                    background-color: #ffbb00
+                    opacity: 0.9
+                    transition: 0.5s
+                    cursor: pointer
         &:hover
             cursor: pointer
