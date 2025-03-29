@@ -473,7 +473,6 @@ header .menu .imgbox:hover {
 #contact .box {
   display: flex;
   flex-direction: column;
-  margin-right: 15px;
 }
 #contact .box input {
   font-size: 20px;
