@@ -1,14 +1,19 @@
 header
     padding: 20px 0
-    z-index: 1000
-    position: fixed
     background-color: #212529
+    position: fixed
+    right: 0
+    left: 0
+    z-index: 1
     width: 100%
     .menu
         display: flex
         justify-content: space-between
         align-items: center
+        .imgbox
+            width: 170px
         nav
+            display: block
             a
                 cursor: pointer
                 font-size: 18px
@@ -16,45 +21,27 @@ header
                 margin-right: 30px
                 &:hover
                     color: #f8cf75
-        .imgbox
-            img
-                width: 150px
-            &:hover
-                cursor: pointer
-    @media screen and ( min-width: 300px )
-        nav
-            display: none
-        .btn
-            display: flex
-            flex-direction: row
-            border: 0.5px solid #bdbdbd
-            border-radius: 5px
-            padding: 3px 8px
-            font-size: 18px
-            color: #6c757d
-            &:hover
-                cursor: pointer
-
-    @media screen and (min-width: 600px)      
-        nav
-            display: none
-        .btn
-            display: flex
-            flex-direction: row
-            border: 0.5px solid #bdbdbd
-            border-radius: 5px
-            padding: 5px 10px
-            font-size: 20px
-            color: #6c757d
-            padding-right: 3px
-            &:hover
-                cursor: pointer
-
-    @media screen and ( min-width: 900px )      
-        nav
-            display: flex
-            align-items: center
-            justify-content: space-around
-            font-size: 25px
         .btn
             display: none
+    @media screen and ( max-width: 992px )
+        .menu
+            width: 100%
+            nav
+                display: none
+            .btn
+                display: flex
+                border-radius: 7px
+                border: 1px solid #605e5e
+                padding: 7px 13px 7px 11px
+                h3
+                    color: #a5a2a2
+                    font-weight: 700
+                    font-size: 18px
+                    margin-right: 10px
+                .icon
+                    color: #afacac
+                    margin-top: 2px
+    @media screen and ( max-width: 280px )
+        .menu
+            display: flex
+            flex-flow: row wrap
