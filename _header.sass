@@ -1,14 +1,14 @@
 header
     padding: 20px 0
     z-index: 1000
-    position: fixed  
+    position: fixed
     background-color: #212529
     width: 100%
     .menu
         display: flex
         justify-content: space-between
         align-items: center
-        nav            
+        nav
             a
                 cursor: pointer
                 font-size: 18px
@@ -16,13 +16,12 @@ header
                 margin-right: 30px
                 &:hover
                     color: #f8cf75
-        .imgbox           
+        .imgbox
+            img
+                width: 150px
             &:hover
                 cursor: pointer
     @media screen and ( min-width: 300px )
-        .imgbox
-            img
-                width: 100px
         nav
             display: none
         .btn
@@ -36,10 +35,7 @@ header
             &:hover
                 cursor: pointer
 
-    @media screen and (min-width: 600px)
-        .imgbox
-            img
-                width: 150px
+    @media screen and (min-width: 600px)      
         nav
             display: none
         .btn
@@ -54,14 +50,11 @@ header
             &:hover
                 cursor: pointer
 
-    @media screen and ( min-width: 900px )
-        .imgbox
-            img
-                width: 200px
+    @media screen and ( min-width: 900px )      
         nav
             display: flex
             align-items: center
-            justify-content: space-around            
-            font-size: 20px
+            justify-content: space-around
+            font-size: 25px
         .btn
             display: none

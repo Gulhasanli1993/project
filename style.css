@@ -31,13 +31,13 @@ header .menu nav a {
 header .menu nav a:hover {
   color: #f8cf75;
 }
+header .menu .imgbox img {
+  width: 150px;
+}
 header .menu .imgbox:hover {
   cursor: pointer;
 }
 @media screen and (min-width: 300px) {
-  header .imgbox img {
-    width: 100px;
-  }
   header nav {
     display: none;
   }
@@ -55,9 +55,6 @@ header .menu .imgbox:hover {
   }
 }
 @media screen and (min-width: 600px) {
-  header .imgbox img {
-    width: 150px;
-  }
   header nav {
     display: none;
   }
@@ -76,14 +73,11 @@ header .menu .imgbox:hover {
   }
 }
 @media screen and (min-width: 900px) {
-  header .imgbox img {
-    width: 200px;
-  }
   header nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 25px;
   }
   header .btn {
     display: none;
@@ -511,11 +505,11 @@ header .menu .imgbox:hover {
 }
 @media screen and (min-width: 300px) {
   #contact .box input {
-    width: 300px;
+    width: 400px;
     height: 40px;
   }
   #contact .textbox input {
-    width: 300px;
+    width: 400px;
     height: 140px;
     padding-bottom: 30%;
   }
@@ -526,13 +520,13 @@ header .menu .imgbox:hover {
 }
 @media screen and (min-width: 700px) {
   #contact .box input {
-    width: 600px;
-    height: 80px;
+    width: 640px;
+    height: 70px;
   }
   #contact .textbox input {
-    width: 600px;
-    height: 280px;
-    padding-bottom: 40%;
+    width: 640px;
+    height: 250px;
+    padding-top: 20px;
   }
   #contact .btn {
     font-size: 22px;
