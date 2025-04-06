@@ -47,7 +47,7 @@ header .menu .imgbox:hover {
     border: 0.5px solid #bdbdbd;
     border-radius: 5px;
     padding: 3px 8px;
-    font-size: 10px;
+    font-size: 18px;
     color: #6c757d;
   }
   header .btn:hover {
@@ -67,7 +67,7 @@ header .menu .imgbox:hover {
     border: 0.5px solid #bdbdbd;
     border-radius: 5px;
     padding: 5px 10px;
-    font-size: 15px;
+    font-size: 20px;
     color: #6c757d;
     padding-right: 3px;
   }
@@ -102,7 +102,7 @@ header .menu .imgbox:hover {
   padding-top: 150px;
 }
 #welcome .box h1 {
-  font-weight: 300;
+  font-weight: 400;
   color: white;
   padding-top: 80px;
 }
@@ -136,7 +136,7 @@ header .menu .imgbox:hover {
 }
 @media screen and (min-width: 600px) {
   #welcome h1 {
-    font-size: 25px;
+    font-size: 40px;
   }
   #welcome h3 {
     font-size: 45px;
@@ -150,7 +150,7 @@ header .menu .imgbox:hover {
 }
 @media screen and (min-width: 900px) {
   #welcome h1 {
-    font-size: 40px;
+    font-size: 60px;
   }
   #welcome h3 {
     font-size: 80px;
@@ -167,7 +167,7 @@ header .menu .imgbox:hover {
   padding: 80px 0;
 }
 #services h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 700;
 }
 #services h3 {
@@ -207,7 +207,7 @@ header .menu .imgbox:hover {
   padding: 80px 0;
 }
 #portfolio .textbox h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 700;
 }
 #portfolio .textbox h3 {
@@ -264,7 +264,7 @@ header .menu .imgbox:hover {
   padding: 100px 0;
 }
 #about .box h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 700;
 }
 #about .box h3 {
@@ -381,6 +381,7 @@ header .menu .imgbox:hover {
     font-size: 25px;
     font-weight: 600;
     padding: 30px 30px;
+    line-height: 1.3;
   }
 }
 
@@ -389,7 +390,7 @@ header .menu .imgbox:hover {
   background-color: #f8f9fa;
 }
 #team h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 700;
 }
 #team h3 {
@@ -411,8 +412,9 @@ header .menu .imgbox:hover {
 }
 #team .textbox h2 {
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 20px;
+  color: #15171a;
 }
 #team .textbox h3 {
   font-size: 18px;
@@ -423,13 +425,16 @@ header .menu .imgbox:hover {
   display: flex;
   flex-direction: row;
 }
+#team .textbox ul li .btn {
+  margin-bottom: 13px;
+}
 #team .textbox ul li .btn .icon {
   background-color: #212529;
   color: white;
   border-radius: 50px;
   width: 40px;
   height: 40px;
-  padding: 5px;
+  padding-top: 8px;
   transition: 0.5s;
 }
 #team .textbox ul li .btn .icon:hover .icon {
@@ -462,7 +467,7 @@ header .menu .imgbox:hover {
 }
 #contact h1 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 60px;
   color: white;
 }
 #contact h3 {
@@ -561,7 +566,7 @@ ul li .btn .icon {
   border-radius: 30px;
   width: 40px;
   height: 40px;
-  padding-top: 10px;
+  padding-top: 8px;
   transition: 0.5s;
 }
 ul li .btn .icon:hover {
