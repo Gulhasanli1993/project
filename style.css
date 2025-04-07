@@ -447,116 +447,104 @@ header .menu .btn {
   background-size: cover;
   background-position: center center;
 }
-#contact h1 {
-  font-weight: 700;
-  font-size: 60px;
-  color: white;
+#contact .box {
+  margin-top: 60px;
 }
-#contact h3 {
+#contact .box h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+#contact .box h3 {
   font-size: 20px;
-  margin: 20px 0 30px;
   color: #6c757d;
 }
-#contact .box {
+#contact .place {
   display: flex;
   flex-direction: column;
+  margin-top: 44px;
 }
-#contact .box input {
+#contact .place input {
+  margin: 14px 0;
+  padding: 20px 20px;
   font-size: 20px;
-  margin-top: 20px;
-  border-radius: 5px;
-  font-weight: 500;
-  color: #e9ecef;
-  background-color: white;
+  font-weight: 700;
 }
 #contact .textbox {
-  padding-top: 20px;
   display: flex;
-}
-#contact .textbox input {
-  border-radius: 5px;
+  margin-top: 55px;
   font-size: 20px;
-  font-weight: 500;
-  color: #e9ecef;
-  background-color: white;
+}
+#contact .textbox textarea {
+  color: rgba(206, 202, 202, 0.937254902);
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 18px;
 }
 #contact .btn {
-  background-color: #ffc800;
-  border-radius: 5px;
-  color: white;
-  font-weight: 700;
-  margin-top: 20px;
+  padding: 15px 35px;
+  margin: 40px 0;
+  background-color: #ffc021;
+  border-radius: 7px;
   opacity: 0.7;
 }
-#contact:hover {
-  cursor: pointer;
+#contact .btn h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
 }
-@media screen and (min-width: 300px) {
-  #contact .box input {
-    width: 400px;
-    height: 40px;
+@media screen and (max-width: 768px) {
+  #contact .textbox {
+    margin-top: 15px;
   }
-  #contact .textbox input {
-    width: 400px;
-    height: 140px;
-    padding-bottom: 30%;
+}
+@media screen and (max-width: 576px) {
+  #contact .box h1 {
+    font-size: 45px;
   }
-  #contact .btn {
+  #contact .box h3 {
     font-size: 18px;
-    padding: 15px 30px;
-  }
-}
-@media screen and (min-width: 700px) {
-  #contact .box input {
-    width: 640px;
-    height: 70px;
-  }
-  #contact .textbox input {
-    width: 640px;
-    height: 250px;
-    padding-top: 20px;
-  }
-  #contact .btn {
-    font-size: 22px;
-    padding: 20px 40px;
   }
 }
 
 footer {
-  padding: 10px 0;
+  padding: 22px 0;
 }
-
-a {
-  color: #212529;
-  margin-right: 20px;
+footer .menu a {
+  color: #535151;
   font-size: 18px;
 }
-a:hover {
-  cursor: pointer;
+footer .menu span {
+  margin: 0 20px;
 }
-
-ul {
-  margin-right: 10px;
-}
-ul li {
+footer .menu ul {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
 }
-ul li .btn .icon {
-  background-color: #212529;
-  color: white;
-  border-radius: 30px;
+footer .menu ul li .icon {
+  font-size: 17px;
   width: 40px;
   height: 40px;
-  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #1a1919;
+  color: white;
+  margin: 0 12px;
+  border-radius: 30px;
+}
+footer .menu ul li .icon:hover {
+  background-color: #424649;
   transition: 0.5s;
 }
-ul li .btn .icon:hover {
-  cursor: pointer;
-  opacity: 0.7;
-}
-
-h3 {
-  font-size: 18px;
-  margin-right: 10px;
+@media screen and (max-width: 992px) {
+  footer .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .menu ul {
+    margin: 15px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
